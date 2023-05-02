@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link   CND Bootstrap  CSS  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Path CSS  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="scroll.css">
+    <link rel="stylesheet" href="mediaquery.css">
+    <!-- Link Fonts Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+    <!-- Link CND Font Awesome -->
+    <link rel="stylesheet" src="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" src="https://kit.fontawesome.com/81d9d47aad.css" crossorigin="anonymous">
+    <!-- Icon title -->
+    <link rel="icon" type="icon/png" sizes="500x500" href="Assets_Tresor_Rus/Groupe 4108.svg">
+    <title>TRESOR RUS</title>
+</head>
+<body>
+    <div class="mainnav">
+        <p style="margin-bottom: 0;">Rien qu`aujourd`hui, livraison gratuite sur tous les produits, même promotions !</p>
+    
+    </div>
+    <hr style="border:1px solid  gray; margin-top: 0; width: 100%;">
+    <main class="main">
+        
+        <header >
+            
+            <!---------------------- navigation bar -------------------->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid" style="margin-top: -7px;margin-bottom: 2px;">
+                    <img id="logo1" src="/images/tresor.svg" alt="" onclick="onLogoClick()">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 r  ul0" >
+                        <li class="nav-item">
+                            <a class="nav-link nav-s active"  onclick= "onNosProduitsClick()" style="color: #45444F;">Nos Produits</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link nav-s active" href="#" style="color: #45444F;">Promotion</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link nav-s active" href="#" style="color: #45444F;">Actualités</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link nav-s active"  onclick= "onContactClick() " style="color: #45444F;">Contact</a>
+                          </li>
+                    </ul>
+                    <!-------------------- icons ----------------------->
+                    <div class="d-flex icon" style="margin-top: -7px;">
+                      <a hre></a>  <img class="icons1" style="margin-top: 3.5px;margin-right: 1px;" src="/images/bag.svg" width="21.092" height="21.007" viewBox="0 0 21.092 21.007">
+                            <path d="M3.624,15a8.03,8.03,0,0,0,10.619.659l5.318,5.318a1,1,0,1,0,1.414-1.414l-5.318-5.318A8.041,8.041,0,1,0,3.624,15ZM5.038,5.04a6.043,6.043,0,1,1-1.77,4.274A6.043,6.043,0,0,1,5.038,5.04Z" transform="translate(-0.767 -0.763)" fill="#34353d" stroke="#fff" stroke-width="1"/></img>
+                        <svg class="icons1" xmlns="/images/search.svg" width="21.492" height="20.507" viewBox="0 0 21.492 20.507">
+                            <path  d="M26.865,29.235a5.617,5.617,0,1,0-5.6-5.633A5.6,5.6,0,0,0,26.865,29.235Zm0-9.757a4.124,4.124,0,1,1-4.124,4.155A4.125,4.125,0,0,1,26.865,19.477ZM17.139,38.007H36.653a.749.749,0,0,0,.739-.739,7.067,7.067,0,0,0-7.049-7.049H23.449A7.067,7.067,0,0,0,16.4,37.268.749.749,0,0,0,17.139,38.007Zm6.31-6.31h6.895a5.551,5.551,0,0,1,5.51,4.832H17.939A5.551,5.551,0,0,1,23.449,31.7Z" transform="translate(-16.15 -17.75)" fill="#34353d" stroke="#fff" stroke-width="0.5"/>
+                        </svg>
+                        <img class="icons1" src="/images/user.svg" width="21.505" height="20.726" viewBox="0 0 10.505 9.726">
+                            <path  d="M17.678,6.419a1.052,1.052,0,0,0-1.052,1.052v2.921a2.648,2.648,0,0,1-5.3,0V7.471a1.052,1.052,0,0,0-2.1,0v2.921a4.752,4.752,0,0,0,9.5,0V7.471A1.052,1.052,0,0,0,17.678,6.419Z" transform="translate(-8.725 -5.919)" fill="#34353d" stroke="#fff" stroke-width="1"/>
+                    </img>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+              
+        </header>
+<!-----scrolltop-->
+       <div id="btn"> <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="/images/arrow-top-512.webp" width="25px"></button></div>
+<!-----end -scrolltop-->
+
+    </main>
+<!-------------------- slider ----------------------->
+        <section class="photo-slide">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/header4.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption  d-md-block text-center">
+
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    
+                    <img src="/images/header2.png" class="d-block w-100" alt="...">
+                    
+                  </div>
+                </div>
+              </div>
+        </section>
+        <!---------------------- carts---------------------->
+        <section class="produit" >
+            <div class="postion" >
+                <div class="container-sm  themed-container" >
+                    <div class="row my-2 align-items-center justify-content-center " >
+                        <div class="col-12 col-md-6 col-lg-3 text-center" >
+                            <div class="box mt-4" >
+                                <img src="/images/bottle.svg" alt="icon" width="40.13px" height="47.48px">
+                                <div class="card-body text-center" >
+                                    <h4 style="font: normal normal normal 25px/54px Marion;
+                                    letter-spacing: 0px;
+                                    color: #7C243E;">Produits frais</h4>
+                                    <p style="text-align: center;
+                                    font: normal normal normal 14px/20px Asap;
+                                    letter-spacing: 0px;
+                                    color: #34353D;">
+                                        Nous récupérons les commandes directement à l'éco-usine de cèdre de Sibérie à Tomsk, 
+                                        de manière à ce que les produits restent frais.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-12 col-md-6 col-lg-3 text-center">
+                            <div class="box" style="padding-top: 25px;">
+                                <img src="/images/van.svg" alt="icon" width="62.96px" height="46.49px">
+                                <div class="card-body text-center">
+                                    <h4 style="font: normal normal normal 25px/54px Marion;
+                                    letter-spacing: 0px;
+                                    color: #7C243E;" >Livrasisons</h4>
+                                    <p style="text-align: center;
+                                    font: normal normal normal 14px/20px Asap;
+                                    letter-spacing: 0px;
+                                    color: #34353D;">
+                                        Nous livrons en Russie et dans la CEI par les sociétés de transport les mieux 
+                                        adaptées et dans le monde entier avec l'aide de DHL.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-12 col-md-6 col-lg-3 text-center">
+                            <div class="box" style="padding-top: 25px;">
+                                <img src="/images/emoji.svg" alt="icon" width="50.99px" height="47.77px">
+                                <div class="card-body text-center">
+                                    <h4 style="font: normal normal normal 25px/54px Marion;
+                                    letter-spacing: 0px;
+                                    color: #7C243E;">Le bonheur</h4>
+                                    <p style="text-align: center;
+                                    font: normal normal normal 14px/20px Asap;
+                                    letter-spacing: 0px;
+                                    color: #34353D;">
+                                        Il est important pour nous que vous ayez le joie d'acheter et le bonheur d'offrir nos goodies à vos proches.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-12 col-md-6 col-lg-3 text-center" >
+                            <div class="box card-body" style="padding-top: 35px;" >
+                                <img src="/images/like.svg" alt="icon" width="46.29px" height="48.41px">
+                                <div class="card-body text-center">
+                                    <h4 style="font: normal normal normal 25px/54px Marion;
+                                    letter-spacing: 0px;
+                                    color: #7C243E;">Prix abordables</h4>
+                                    <p style="text-align: center;
+                                    font: normal normal normal 14px/20px Asap;
+                                    letter-spacing: 0px;
+                                    color: #34353D;">
+                                        En achetant des produits directement auprès de Trésor RUS, vous ne surpayez pas les intermédiaires.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </section>
+    <main class="main" >
+        <!------------------------note selection----------------------------->
+        <section class="notre">
+            <div class="noter-text">
+                <h1  style="font-size: 44px;
+                color: var(--color-45);
+                font-family: var(--font-family-marion);
+                margin: 40px 0 20px 0;text-align: center;margin-top: 8px;" >Notre sélection</h1>
+                <p>
+                    Quelques produits sélectionnés par nos soins, que vous pourrez directement commander et vous les faire livrer chez vous
+                </p>
+                
+            </div>
+            <div class="container themed-container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col col-12 col-md-6 col-lg-3 ">
+                        <div class="box">
+                            <img src="images/Groupe4177.png" alt="noter-selection-01" >
+                            <div class="card-body">
+                                <p>Thé Ivan aux canneberges, 70 g</p>
+                                <span><strong>5,69 €</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-12 col-md-6 col-lg-3">
+                        <div class="box">
+                            <img src="images/Groupe4179.png" alt="noter-selection-02" >
+                            <div class="card-body">
+                                <p>Thé Ivan aux canneberges, 70 g</p>
+                                <span><strong>5,80 €</strong></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div  class="col col-12 col-md-6 col-lg-3">
+                        <div class="box">
+                            <img src="images/Groupe4179.png" alt="noter-selection-03" >
+                            <div class="card-body">
+                                <p>Thé Ivan aux framboises, 70 g</p>
+                                <span><strong>5,80 €</strong></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div  class="col col-12 col-md-6 col-lg-3">
+                        <div class="box">
+                            <img src="images/Groupe4180.png" alt="noter-selection-04" >
+                            <div class="card-body">
+                                <p>Thé Ivan grande feuille, 50 g</p>
+                                <span><strong>5,19 €</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row align-items-center justify-content-center mt-3">
+                    <div class="col col-12 col-md-6 col-lg-3 new1">
+                        <div class="box py-0">
+                            <img src="images/Groupe4181.png" alt="noter-selection-05" >
+                            <div class="card-body">
+                                <p>Coffret « From Siberia with Love », 580 g</p>
+                                <span><strong style="margin-top: -40px;" >52,95 €</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div  style=" margin-top: -20px;" class="col col-12 col-md-6 col-lg-3 new1 " >
+                        <div class="box">
+                            <img src="images/Groupe4182.png" alt="noter-selection-06" >
+                            <div class="card-body">
+                                <p class="">Pignon de pin, 120 g</p>
+                                <span><strong class="sp-tp" >5,22 €</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-12 col-md-6 col-lg-3 new1 ">
+                        <div class="box">
+                            <img src="images/Groupe4183.png" alt="noter-selection-07">
+                            <div class="card-body">
+                                <p>Chocolat au lait aux noisettes et canneberges, 100 g</p>
+                                <span><strong>3,85 €</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="col col-12 col-md-6 col-lg-3 ">
+                        <div class="box">
+                            <img src="images/zit.png" alt="noter-selection-08" >
+                            <div class="card-body">
+                                <p>Huile de cèdre avec résine, 100 ml</p>
+                                <p class="sp-tp"><span  class="old">9,64 €</span> <span><strong >7,56 €</strong></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ------------ a nouveau en stock------------->
+        <section class="nouveau container-sm themed-container "> 
+            <h1>A nouveau en stock</h1>
+            <div class="center-box row align-items-center justify-content-center">
+                <div style="margin: 0 -10px;" class="col col-sm col-md col-lg my-0">
+                    <div class="box">
+                        <img src="images/choco.png" alt="nouveau-en-stock-01" width="691px" height="817px">
+                        <div class="card-body ">
+                            <p>Croquant de cèdre à lapomme de pin, 200g | emballage kraft</p>
+                            <span><strong>8,98 €</strong></span>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin: 0 -10px;" class="col col-sm col-md col-lg my-0">
+                    <div class="col col-sm col-md col-lg">
+                        <div class="box">
+                            <img src="images/lo7.png" alt="nouveau-en-stock-02"  width="381px" height="361px">
+                            <div class="card-body">
+                                <p>Boisson au thé sage officinalis , 25 g | tube</p>
+                                <span><strong>3,34 €</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-sm col-md col-lg">
+                        <div class="box">
+                            <img src="images/3sel.png" alt="nouveau-en-stock-03" width="381px" height="361px">
+                            <div class="card-body">
+                                <p>Miel aux pignons entier, 200 g</p>
+                                <span><strong>8,08 €</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+       <!-- end section A nouveau en stock -->
+    
+       <section>
+            <div class="photo-video">
+                <div class="info-center">
+                    <img src="/images/play.svg" alt="">
+                    <h4>A la découverte</h4>
+                    <p>DE NOS PRODUITS D`EXCEPTION</p>
+                    <img class="logo" src="/images/Groupe4125.svg" alt="">
+
+                </div>
+            </div>
+       </section>
+       <hr class="hr1" style="margin-bottom: 30px;" >
+       <!------------------------ footer ------------------------------>
+        <footer id="myfooter" >
+            <div class="contaier my-0">
+                <div class="row  justify-content-center">
+                    <div class="col col-sm col-md-4 col-lg-4">
+                        <div class="box">
+                            <div class="card-body">
+                                <h4 style="color: #34353D;">Notre mission</h4>
+                                <p>
+                                    Nous sommes une équipe qui partage les mêmes idées, offrant au monde des produits de qualité Russe.
+                                    Pour votre bien-être et votre santé, nous avons consciemment abandonné les arômes, les colorants,
+                                    les conservateurs et les exhausteurs de goût.</p>
+                                 <p>
+                                    Nous voulons vous ravir chaque jour avec une 
+                                    jolie vue de la Russie, grâce à nos produits !
+                                 </p>   
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="col col-sm col-md-2 col-lg-2">
+                        <div class="box2">
+                            <div class="card-body">
+                                <h4 style="color: #34353D;">En 1 Clic</h4>
+                                    <ul>
+                                        <li><a href="#">Nos Produits</a></li>
+                                        <li><a href="#">Promotions</a></li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-sm col-md-2 col-lg-2">
+                        <div class="box2">
+                            <div class="card-body">
+                                <h4 style="color: #34353D;">Infos</h4>
+                                <ul >
+                                    <li><a href="#">A propos de nous</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Commentaires</a></li>
+                                    <li><a href="#">Paiement</a></li>
+                                    <li><a href="#">Livraisons</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-sm col-md-4 col-lg-4 mt-3">
+                        <div class="box3">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="text col">
+                                       <h4 style="color: #34353D;">Newsletter</h4>
+                                       <p >Restez informé de nos offres. </p>
+                                       <span style="color: #34353D;">Inscrivez-vous !</span>
+                                    </div>
+                                    <div class="col" >
+                                      <img src="images/Groupe4108.svg" width="100px" alt="">
+                                    </div>
+                                </div>
+                                  <form id="form" action="" method="post">
+                                    <div class="icon-input">
+                                        <input id="email1" type="email" name="email" placeholder="Email " onkeydown="validation()">
+                                        <BUtton><i class="icon fas fa-arrow-right"></i></BUtton>
+                                        <span id="text1"></span>
+                                    </div>
+                                  </form>
+                                  <div class="sm">
+                                    <img src="images/Trace16099.svg" alt="">
+                                    <img src="images/Trace16100.svg" alt="">
+                                    <img src="images/instagram-logo-.svg" alt="">
+                                    <img src="images/Trace16102.svg" alt="">
+                        
+                                  </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </footer>
+       <hr class="hr2" >
+       <!---------------------- payments ------------------->
+        <div class="cart-b text-center" >
+            <div class="carte">
+                <a href="#" ><img style="border: 0.5px solid #c5c5c5; border-radius: 3px;" height="22px" src="/images/Visa-Inc-Logo-wine.svg"></a>
+      <a href="#" ><img style="border: 0.5px solid #c5c5c5; border-radius: 3px;" height="22px" src="/images/Mastercard-Logo-wine.svg"></a>
+      <a href="#" ><img style="border: 0.5px solid #c5c5c5; border-radius: 3px;" height="22px" src="/images/amex-svgrepo-com.svg"></a>
+      <a href="#" ><img style="border: 0.5px solid #c5c5c5; border-radius: 3px;" height="22px" src="/images/paypal-svgrepo-com.svg"></a>
+      <a href="#" ><img style="border: 0.5px solid #c5c5c5; border-radius: 3px;" height="22px" src="/images/diners-svgrepo-com.svg"></a>
+      <a href="#" ><img style="border: 0.5px solid #c5c5c5; border-radius: 3px;" height="22px" src="/images/discover-svgrepo-com.svg"></a>
+            </div>
+            <p style="font: normal normal normal 14px/24px PT Sans;
+            letter-spacing: 0px;
+            color: #595E64;">©2022 TRESOR RUS - Mentions légales - CGV - Données personnelles - Réalisation</p>
+        </div>
+      
+    </main>
+
+
+
+    <!-- Path bootstrap js -->
+    <!-- <script src="bootstrap5.1.3/js/bootstrap.js"></script> -->
+    <!-- <script src="bootstrap5.1.3/js/bootstrap.min.js"></script> -->
+    <!-- Link Bootstrap js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  
+    <script src="https://kit.fontawesome.com/81d9d47aad.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>

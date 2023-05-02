@@ -1,0 +1,199 @@
+@media screen and (max-width:576px){
+    #btn { display: none;}
+    
+    section .photo-video .info-center p{width: 300px;font-size: 15px; }
+
+    #container-elements{
+        justify-items: center;
+        grid-template-columns: 500px ;
+        grid-template-rows: 420px 420px 420px 420px 420px 420px 420px 420px;
+      
+    }
+
+    
+    .under-elements{font-size: large;}
+    body{
+        margin: 0;
+    }
+    .main{
+        margin: 0;
+        width: 100%;
+    }
+    /* Start header navbar */
+    header nav .collapse ul{
+        margin: 0 0px;
+    } 
+    header .navbar{
+        padding-bottom: 20px;
+    }
+    /* end header navbar */
+    /* start Slider  */
+    .photo-slide .carousel .carousel-inner .carousel-item img{
+        height: 300px;
+    }
+    .photo-slide .slide .carousel-inner .carousel-item .text-center  h1{
+        font-size: 30px;
+        position: relative;
+        top: 50px;
+    }
+    .photo-slide .slide .carousel-inner .carousel-item .text-center button{
+        width: 80px;
+        height: 20px;
+        font-size: 12px;
+        margin: 23px 0 0 0;
+    }
+    /* End slider */
+    /* Start produit and livrasions */
+    .produit{
+        position: relative;
+        top: -33px;
+    }
+    /* end produit and livrasions */
+    /* start noter selection */
+    .notre {
+        justify-content: center;
+    }
+    .notre .container .row .col {
+        width: 300px;}
+        .new1{margin-bottom: 20px;}
+    /* end noter selection */
+    /* Start nouveau en stock */
+    .nouveau .center-box{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .nouveau .box img{
+        width: 350px;
+    }
+    /* end nouveau en stock */
+    /* start Footer */
+    footer .contaier .row form .icon-input{
+        margin: 10px 0 32px 0;
+    }
+    footer .contaier .row .sm{
+        left: 20%;
+    }  
+    footer .contaier .row form .icon-input{
+        
+        width: 100%;
+        margin: 10px 0 32px 0;
+    }
+    footer .contaier .row form .icon-input input[type=email]{
+      
+       width: 85%;
+        height: 46px;
+    }
+    footer .contaier .row form .icon-input button{
+        right: 60px;
+    }
+    footer .contaier  .box3 .card-body .row img{
+        padding: 0;
+        width: 135.5px;
+        margin: -10px 0 0 -20px;
+    }
+    /* end footer  */
+}
+/* screen and (min-width:576px or max-width:977px)  */
+@media(576px <= width <= 977px ) {
+    #container-elements{
+        grid-template-columns: 269px 269px;
+        grid-template-rows: 365px 365px 365px 365px ;
+      
+    }
+    .main{
+        width: 100%;
+    }
+    header nav .collapse ul{
+        margin: 0 0px;
+    } 
+    header .navbar{
+        padding-bottom: 20px;
+    }
+   
+    .notre {
+        justify-content: center;
+    }
+    .notre .container .row .col {
+        width: 300px;
+        margin: 0 2px;
+    }
+    .notre .container .row .col .box {
+        width: 100%;
+    }
+    .nouveau .box img{
+        width: 330px;
+    }
+    /*-------------------------*/
+    .notre .container .row .col .box img{
+        width: 300px;
+        height: 300px;
+    }
+    .nouveau .box{
+        width: 516px;
+    }
+    .nouveau .box img{
+        width: 100%;
+    }
+    /*-------------------------*/
+    footer .contaier .row form .icon-input{
+        width: 280px;
+        margin: 10px 0 32px 0;
+    }
+    footer .contaier  .box3 .card-body .row img{
+        padding: 0;
+        width: 100.5px;
+        margin: -10px 0 0 0px;
+    }
+    footer .contaier .row form .icon-input input[type=email]{
+        width: 85%;
+        height: 46px;
+    }
+    footer .contaier .row form .icon-input button{
+        right: 50px;
+    }
+    footer .contaier .row .sm{
+        left: 77%;
+    }  
+}
+
+@media screen and (min-width:980px) and (max-width: 1200px) 
+{
+
+    #container-elements{
+        grid-template-columns: 269px 269px 269px;
+        grid-template-rows: 365px 365px 365px ;
+    }
+    footer .contaier .row form .icon-input input[type=email]{
+        width: 90%;
+        height: 46px;
+    }
+    footer .contaier .row form .icon-input button{
+        right: 40px;
+    }
+    /*--------------------------*/
+    .nouveau .box img{
+        width: 350px;
+    }
+    
+    .notre .container .row .col .box img{
+        width: 230px;
+        height:260px;
+    }
+   
+    .notre .container .row .col:nth-child(8){
+       margin-top: 0px;
+    }
+    .nouveau .box{
+        width: 450px;
+        margin: 0;
+    }
+    .nouveau .box img{
+        width: 100%;
+    }
+    /***------------------------------*/
+}
+@media screen and (max-width:490px)
+{
+
+}
